@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon_16x16.png">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/mobilestyles.css">
+    <script src="scripts/scripts.js"></script>
+    <title>Food</title>
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html" style="display: block;" ><img src="images/logo.png" style="width: 60px; height: auto;"alt="Lyre Festival logo and link to homepage"></a>
+        </div>
+        <div>
+            <form action="booking.html">
+                <button type="submit"><b>BUY TICKETS</b></button>
+            </form>
+        </div>
+        <div>
+            <ul class="nav">
+                <li class="navtext">
+                    <a href="lineup.html"><h1>Lineup</h1></a>
+                </li>
+                <li class="navtext">
+                    <a href="info.html"><h1>Info</h1></a>
+                </li>
+                <li class="navtext">
+                    <a href="news.html"><h1>News</h1></a>
+                </li>
+                <li class="navtext">
+                    <a href="contact.html"><h1>Contact</h1></a>
+                </li>
+                <li id="facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100090947910732" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/st.ruby_/" class="fa fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/playlist/7tzu3vNA2PBTkqGASylZEv?si=1ffe57cd4a794eb3" class="fa fa-spotify"></a>
+                </li>
+            </ul>
+        </div>
+       
+    </header>
+    <main>
+        <div id="burgermenu">
+                <button class="closebutton" onclick="document.getElementById('burgermenu').style.display = 'none'">X</button>
+                <img id="burgermenuimg" class="menus" src="images/burgermenu.png" width="100%" alt="Burger menu">        
+        </div>
+        <div id="pizzamenu">
+            <button class="closebutton" onclick="document.getElementById('pizzamenu').style.display = 'none'">X</button>
+            <img id="pizzamenuimg" class="menus" src="images/pizzamenu.png" width="100%" alt="Pizza menu">        
+        </div>
+        <div id="falafelmenu">
+            <button class="closebutton" onclick="document.getElementById('falafelmenu').style.display = 'none'">X</button>
+            <img id="falafelmenuimg" class="menus" src="images/falafelmenu.png" width="100%" alt="Falafel menu">        
+        </div>
+        <div id="arepamenu">
+            <button class="closebutton" onclick="document.getElementById('arepamenu').style.display = 'none'">X</button>
+            <img id="arepamenuimg" class="menus" src="images/arepamenu.png" width="100%" alt="Arepa menu">        
+        </div>
+        <div class="pagetitle">
+            <h1 class="title"><br><br>Food traders</h1>
+        </div>
+        <br><br>
+
+        <div class="grid-container">
+            <div class="foodimg">
+                <img src="images/burger.jpg" width="100%" alt="Burger">
+            </div>
+            <div class="description">
+                <h2>GAMEKEEPER</h2>
+                <p>Bringing forest to fork, Gamekeeper have been putting their own contemporary spin on classic BBQ dishes since 2014 using only sustainably sourced ingredients and 'Best of British' wild game.</p>
+            </div>
+            <div class="menulink">
+                <button onclick="document.getElementById('burgermenu').style.display = 'block'" class="menubutton" id="buttonburger">View Menu</button>
+            </div>
+            <div class="foodimg">
+                <img src="images/pizza.jpg" width="100%" alt="pizza">
+            </div>
+            <div class="description">
+                <h2>GOOD SLICE</h2>
+                <p>Pizza purveyors, party enthusiasts and all round great people, the team at Good Slice have perfected the art of pizza creation - combining crisp focaccia bases, inventive flavours and only the freshest ingredients.</p>
+            </div>
+            <div class="menulink">
+                <button onclick="document.getElementById('pizzamenu').style.display = 'block'"class="menubutton" id="buttonpizza">View Menu</button>
+            </div>
+            <div class="foodimg">
+                <img src="images/falafels.jpg" width="100%" alt="Lebanese food">
+            </div>
+            <div class="description">
+                <h2>LIL'WATAN</h2>
+                <p>From Lebanon to Ireland, Lil'Watan is on a mission to put authentic Lebanese food on the map. Championing local Lebanese suppliers, everything on their menu is authentic to the region, from their fresh pita bread to halal chicken.</p>
+            </div>
+            <div class="menulink">
+                <button onclick="document.getElementById('falafelmenu').style.display = 'block'"class="menubutton" id="buttonfalafel">View Menu</button>
+            </div>
+            <div class="foodimg">
+                <img src="images/arepas.jpg" width="100%" alt="Arepa">
+            </div>
+            <div class="description">
+                <h2>STREAT AREPAS</h2>
+                <p>Latin-inspired cuisine has arrived, Streat Arepas serve everything from tequeños and empanadas to tacos, arepas and chocolate churros. Vegan and gluten free options available.</p>
+            </div>
+            <div class="menulink">
+                <button onclick="document.getElementById('arepamenu').style.display = 'block'"class="menubutton" id="buttonarepa">View Menu</button>
+            </div>
+        </div>          
+    </main>
+    <br><br>
+    <hr>
+    <br><br>
+    <footer>
+        <ul class="footermenu">
+            <li class="foot">
+                <h3>Become a volunteer</h3>
+            </li>
+            <li class="foot">
+                <h3>Careers</h3>
+            </li>
+            <li class="foot">
+                <h3>Food traders</h3>
+            </li>
+            <li class="foot">
+                <h3>Press</h3>
+            </li>
+            <li class="foot">
+                <h3>Partners</h3>
+            </li>
+        </ul><br>
+        <hr>       
+        <div class="grid-footer">
+            <div class="textfooter1">
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="textfooter2">
+                <p>Privacy Notice</p>
+            </div>
+            <div class="textfooter3">
+                <p>Modern Slavery Statement</p>
+            </div>    
+        </div>
+        <div class="tcfooter">
+            <p>@2023 Lyre Festival. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

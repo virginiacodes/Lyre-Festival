@@ -1,0 +1,117 @@
+@media screen and (max-width:430px)
+{
+  .column{
+    width: 100%;
+  }
+
+  #logo{
+    margin-right: 5px;
+  }
+  button{
+    margin: 5px;
+    border: none;
+
+  }
+  h1{
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    padding-left: 50px;
+    
+  }
+  li{
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .flex-container{
+    width: 100%;
+    margin: 0px;
+   
+    display: block;
+    
+  }
+  .infobox{
+    width: 100%;
+    margin: 0px;
+  }
+  .infonavbox{
+    width: 100%;
+    margin: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .infoimg{
+    width: 100%;
+    margin: 0px;
+    margin-top: 6px;
+  }
+  .nav{
+    margin: 0px;
+  }
+  #facebook{
+    margin-left: 28.5%;
+  }
+  .navtext{
+    margin-left: 25%;
+  }
+  .title{
+    padding: 0px;
+  }
+  .grid-container{
+    display:block;
+    padding: 1px;
+  }
+  .foodimg{
+    margin: 1em;
+  }
+  .menubutton{
+    margin-bottom: 6em;
+  }
+  .description{
+    padding-bottom: 0px;
+  }
+  .map{
+    margin: 0px;
+    width: 100%;
+  }
+  #festmap{
+    margin: 0px;
+    width: 100%;
+  }
+  .grid-footer{
+    display: block;
+  }
+  .imgnews{
+    width: 100%;
+    margin: 0px;
+  }
+  .video{
+    width: 100%;
+  }
+  table{
+    width: 100%;
+    margin: 2px;
+  }
+  #pcontact{
+    margin: 2px;
+  }
+  .content{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 1em;
+  }
+  .days{
+    width: 100%;
+  }
+  #confirmbox{
+    margin: 0px;
+    width: 100%;
+  }
+  #yay{
+    padding: 3px;
+  }
+  #hero{
+    padding: 3px;
+    padding-top: 3em;
+  }
+}
